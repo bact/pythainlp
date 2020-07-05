@@ -13,7 +13,6 @@ https://creativecommons.org/publicdomain/zero/1.0/
 Filename | Description
 ---------|------------
 countries_th.txt | List of countries in Thai
-etcc.txt List of | Enhanced Thai Character Clusters
 negations_th.txt | Negation word list
 stopwords_th.txt | Stop word list
 syllables_th.txt | List of Thai syllables
