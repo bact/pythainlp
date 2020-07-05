@@ -6,11 +6,12 @@
 [![pypi](https://img.shields.io/pypi/v/pythainlp.svg)](https://pypi.python.org/pypi/pythainlp)
 [![Downloads](https://pepy.tech/badge/pythainlp/month)](https://pepy.tech/project/pythainlp)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FPyThaiNLP%2Fpythainlp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FPyThaiNLP%2Fpythainlp?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FPyThaiNLP%2Fpythainlp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FPyThaiNLP%2Fpythainlp)
 [![Build Status](https://travis-ci.org/PyThaiNLP/pythainlp.svg?branch=develop)](https://travis-ci.org/PyThaiNLP/pythainlp)
 [![Build status](https://ci.appveyor.com/api/projects/status/9g3mfcwchi8em40x?svg=true)](https://ci.appveyor.com/project/wannaphongcom/pythainlp-9y1ch)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cb946260c87a4cc5905ca608704406f7)](https://www.codacy.com/app/pythainlp/pythainlp_2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=PyThaiNLP/pythainlp&amp;utm_campaign=Badge_Grade)
-[![Coverage Status](https://coveralls.io/repos/github/PyThaiNLP/pythainlp/badge.svg?branch=dev)](https://coveralls.io/github/PyThaiNLP/pythainlp?branch=dev) [![Google Colab Badge](https://badgen.net/badge/Launch%20Quick%20Start%20Guide/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/PyThaiNLP/tutorials/blob/master/source/notebooks/pythainlp_get_started.ipynb)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cb946260c87a4cc5905ca608704406f7)](https://www.codacy.com/app/pythainlp/pythainlp_2)
+[![Coverage Status](https://coveralls.io/repos/github/PyThaiNLP/pythainlp/badge.svg?branch=dev)](https://coveralls.io/github/PyThaiNLP/pythainlp?branch=dev) 
+[![Google Colab Badge](https://badgen.net/badge/Launch%20Quick%20Start%20Guide/on%20Google%20Colab/blue?icon=terminal)](https://colab.research.google.com/github/PyThaiNLP/tutorials/blob/master/source/notebooks/pythainlp_get_started.ipynb)
 [![DOI](https://zenodo.org/badge/61813823.svg)](https://zenodo.org/badge/latestdoi/61813823)
 
 Thai Natural Language Processing in Python.
@@ -96,18 +97,41 @@ The data location can be changed, using `PYTHAINLP_DATA_DIR` environment variabl
 - Python 2.7 users can use PyThaiNLP 1.6
 
 
-## License
+## Citations
 
-- PyThaiNLP code uses [Apache Software License 2.0](https://github.com/PyThaiNLP/pythainlp/blob/dev/LICENSE)
-- Corpus data created by PyThaiNLP project use [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
-- For other corpus that may included with PyThaiNLP distribution, please refer to [Corpus License](https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/corpus_license.md).
+If you use `PyThaiNLP` in your project or publication, please cite the library as follows
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FPyThaiNLP%2Fpythainlp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FPyThaiNLP%2Fpythainlp?ref=badge_large)
+```
+Wannaphong Phatthiyaphaibun, Korakot Chaovavanich, Charin Polpanumas, Arthit Suriyawongkul, Lalita Lowphansirikul, & Pattarawat Chormai. (2016, Jun 27). PyThaiNLP: Thai Natural Language Processing in Python. Zenodo. http://doi.org/10.5281/zenodo.3519354
+```
 
+or BibTeX entry:
+
+``` bib
+@misc{pythainlp,
+    author       = {Wannaphong Phatthiyaphaibun, Korakot Chaovavanich, Charin Polpanumas, Arthit Suriyawongkul, Lalita Lowphansirikul, Pattarawat Chormai},
+    title        = {{PyThaiNLP: Thai Natural Language Processing in Python}},
+    month        = Jun,
+    year         = 2016,
+    doi          = {10.5281/zenodo.3519354},
+    publisher    = {Zenodo},
+    url          = {http://doi.org/10.5281/zenodo.3519354}
+}
+```
 
 ## Contribute to PyThaiNLP
 
-Please do fork and create a pull request :) For style guide and other information, including references to algorithms we use, please refer to our [contributing](https://github.com/PyThaiNLP/pythainlp/blob/dev/CONTRIBUTING.md) page.
+- Please do fork and create a pull request :)
+- For style guide and other information, including references to algorithms we use, please refer to our [contributing](https://github.com/PyThaiNLP/pythainlp/blob/dev/CONTRIBUTING.md) page.
+
+## Licenses
+
+- PyThaiNLP source code and notebooks is released under [Apache Software License 2.0](https://github.com/PyThaiNLP/pythainlp/blob/dev/LICENSE).
+- Corpora, datasets, and documentation created by PyThaiNLP project are released under [Creative Commons Zero 1.0 Universal Public Domain Dedication License](https://creativecommons.org/publicdomain/zero/1.0/) (CC0).
+- Language models created by PyThaiNLP project are released under [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/) (CC-by).
+- For other corpora and models that may included with PyThaiNLP distribution, please advise [Corpus License](https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/corpus_license.md).
+
+----
 
 Made with ❤️<br />
 PyThaiNLP Team<br />
@@ -190,19 +214,42 @@ pip install pythainlp[extra1,extra2,...]
 - เอกสารตัวเต็ม [https://thainlp.org/pythainlp/docs/2.0/](https://thainlp.org/pythainlp/docs/2.0/)
 
 
-## สัญญาอนุญาต
+## การอ้างอิง
 
-- โค้ด PyThaiNLP ใช้สัญญาอนุญาต [Apache Software License 2.0](https://github.com/PyThaiNLP/pythainlp/blob/dev/LICENSE)
-- คลังคำและข้อมูลที่สร้างโดยโครงการ PyThaiNLP ใช้สัญญาอนุญาตครีเอทีฟคอมมอนส์แบบแสดงที่มา-อนุญาตแบบเดียวกัน 4.0 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
-- คลังคำและข้อมูลอื่นๆ ที่อาจแจกจ่ายไปพร้อมกับแพคเกจ PyThaiNLP อาจใช้สัญญาอนุญาตอื่น โปรดดูเอกสาร [Corpus License](https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/corpus_license.md)
+หากคุณใช้ `PyThaiNLP` ในโปรเจคของคุณหรืองานวิจัย คุณสามารถอ้างอิงได้ตามนี้
 
-## ตราสัญลักษณ์
+```
+Wannaphong Phatthiyaphaibun, Korakot Chaovavanich, Charin Polpanumas, Arthit Suriyawongkul, Lalita Lowphansirikul, & Pattarawat Chormai. (2016, Jun 27). PyThaiNLP: Thai Natural Language Processing in Python. Zenodo. http://doi.org/10.5281/zenodo.3519354
+```
 
-ออกแบบโดยคุณ วรุตม์ พสุธาดล จากการประกวดที่ https://www.facebook.com/groups/408004796247683/permalink/475864542795041/ และ https://www.facebook.com/groups/408004796247683/permalink/474262752955220/
+หรือ BibTeX entry:
+
+``` bib
+@misc{pythainlp,
+    author       = {Wannaphong Phatthiyaphaibun, Korakot Chaovavanich, Charin Polpanumas, Arthit Suriyawongkul, Lalita Lowphansirikul, Pattarawat Chormai},
+    title        = {{PyThaiNLP: Thai Natural Language Processing in Python}},
+    month        = Jun,
+    year         = 2016,
+    doi          = {10.5281/zenodo.3519354},
+    publisher    = {Zenodo},
+    url          = {http://doi.org/10.5281/zenodo.3519354}
+}
+```
 
 ## สนับสนุนและร่วมพัฒนา
 
-คุณสามารถ[ร่วมพัฒนาโครงการนี้](https://github.com/PyThaiNLP/pythainlp/blob/dev/CONTRIBUTING.md)ได้ โดยการ fork และส่ง pull request กลับมา
+- ทุกคนสามารถร่วมพัฒนาโครงการนี้ได้ โดยการ fork และส่ง pull request กลับมา
+- อ่าน[เอกสารแนะนำการพัฒนา](https://github.com/PyThaiNLP/pythainlp/blob/dev/CONTRIBUTING.md)
+
+## สัญญาอนุญาต
+
+- รหัสต้นฉบับ (ซอร์สโค้ด) และโน๊ตบุ๊ก (IPython Notebook) ของ PyThaiNLP เผยแพร่ภายใต้สัญญาอนุญาต [Apache Software License 2.0](https://github.com/PyThaiNLP/pythainlp/blob/dev/LICENSE)
+- รายการคำและเอกสารที่สร้างโดยโครงการ PyThaiNLP เผยแพร่ภายใต้สัญญาอนุญาตมอบให้เป็นสมบัติสาธารณะครีเอทีฟคอมมอนส์ 1.0 ([Creative Commons Zero 1.0 Universal Public Domain Dedication License](https://creativecommons.org/publicdomain/zero/1.0/)) (CC0)
+- ตัวแบบภาษา (language model) ที่สร้างโดยโครงการ PyThaiNLP เผยแพร่ภายใต้สัญญาอนุญาตครีเอทีฟคอมมอนส์แบบแสดงที่มา 4.0 ([Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/)) (CC-by)
+- คลังคำ ตัวแบบภาษา และข้อมูลอื่น ที่แจกจ่ายพร้อมกับแพคเกจ PyThaiNLP อาจใช้สัญญาอนุญาตอื่น โปรดดูเอกสาร [Corpus License](https://github.com/PyThaiNLP/pythainlp/blob/dev/pythainlp/corpus/corpus_license.md)
+- ตราสัญลักษณ์ออกแบบโดยคุณ วรุตม์ พสุธาดล จากการประกวดที่ในกลุ่มเฟซบุ๊ก [1](https://www.facebook.com/groups/408004796247683/permalink/475864542795041/) [2](https://www.facebook.com/groups/408004796247683/permalink/474262752955220/)
+
+----
 
 สร้างด้วย ❤️<br />
 ทีม PyThaiNLP<br />
