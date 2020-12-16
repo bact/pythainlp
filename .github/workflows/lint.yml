@@ -24,7 +24,7 @@ jobs:
         pip install torch==1.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
         pip install deepcut
         pip install .[full]
-        pip install flake8 flake8-commas flake8-comprehensions flake8-tidy-imports
+        pip install flake8 flake8-commas flake8-comprehensions
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names

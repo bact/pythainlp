@@ -1,5 +1,13 @@
 PyYAML==5.3.1
-numpy==1.19.*
-python-crfsuite==0.9.*
+attacut==1.0.6
+emoji==0.6.0
+epitran==1.8
+gensim==3.8.3
+nltk==3.5
+numpy==1.19.4
+python-crfsuite==0.9.7
+pandas==1.1.5
+#pyicu>=2.3
 requests==2.25.*
+ssg==0.0.6
 tinydb==4.3.*
